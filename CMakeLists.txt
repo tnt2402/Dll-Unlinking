@@ -12,7 +12,7 @@ endif()
 project ("Dll-Unlinking")
 
 # Add source to this project's executable.
-add_executable (Dll-Unlinking "Dll-Unlinking.cpp" "Dll-Unlinking.h")
+add_executable (Dll-Unlinking "Dll-Unlinking.cpp" "Dll-Unlinking.h" "ProcessInfo.h" "ProcessInfo.cpp" "DllScanner.cpp" "DllScanner.h" "stdafx.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET Dll-Unlinking PROPERTY CXX_STANDARD 20)
