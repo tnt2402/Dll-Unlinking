@@ -4,5 +4,4 @@
 #pragma once
 
 #include <iostream>
-
-void printHello(void);
+#include <Windows.h>
